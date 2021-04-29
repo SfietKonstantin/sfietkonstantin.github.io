@@ -1,0 +1,24 @@
+title: Sfiet_Konstantin's blog
+# email: 
+description: Sailfish OS, Rust and hacks. Also (bad) takes on software development.
+baseurl: ""
+url: "http://sfietkonstantin.github.io"
+twitter_username: SfietKonstantin
+github_username:  SfietKonstantin
+
+
+theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji
+
+show_excerpts: true
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
